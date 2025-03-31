@@ -1,0 +1,32 @@
+html{
+    font-size:10px; 
+    font-family:
+    "Open Sans", sans-serif;/* これが Google フォントから取得した残りの出力になるはず。 */
+    background-color:#00539f;
+}
+body{
+    width:600px; 
+    margin: 0 auto; /*要素の外側の周りのスペース*/
+    background-color:#ff9500;
+    padding: 0 20px 20px 20px;/*コンテンツの周囲のスペース*/
+    border: 5px solid black;/*paddingのすぐ外側にある実線*/
+}
+h1{
+    margin:0;
+    padding:20px 0;
+    color: #00539f;
+    text-shadow:3px 3px 1px black;/*水平オフセット　垂直オフセット　ぼかす半径　色*/
+    font-size:60px;
+    text-align:center;
+}
+p,
+li{
+    font-size: 16px;
+    line-height:2;
+    letter-spacing:1px;
+}
+img{
+    display:block;/*marginを適用するため*/
+    margin:0 auto;
+    max-width:100%;/*画像が本体の幅より大きくならないようにする*/
+}
